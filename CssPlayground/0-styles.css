@@ -1,0 +1,40 @@
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li {
+    font-size: 1.5rem;
+    font-weight: bold;
+    list-style: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 450px;
+    width: 280px;
+    text-align: center;
+    background-color: #f7f7f7;
+    padding-top: 10px;
+    margin: 20px;
+}
+
+span {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+span.i-html {
+    background: url('https://raw.githubusercontent.com/ChahirSaid/alx-frontend-for-fun/main/CssPlayground/0-sprite.png') no-repeat;
+    background-position: 0px 0px;
+}
+
+span.i-css {
+    background: url('https://raw.githubusercontent.com/ChahirSaid/alx-frontend-for-fun/main/CssPlayground/0-sprite.png') no-repeat;
+    background-position: -290px 0px;
+}
+
+span.i-js {
+    background: url('https://raw.githubusercontent.com/ChahirSaid/alx-frontend-for-fun/main/CssPlayground/0-sprite.png') no-repeat;
+    background-position: -580px 0px;
+}
